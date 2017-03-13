@@ -40,6 +40,18 @@ body{
 	text-align: center;
 	font-size: 34px;
 }
+.nextBTN{
+	background-image: url(../img/menu/nextBTN/nextBTN.png);
+	width: 150px;
+	height: 41px;
+	margin-top: 519px;
+	margin-left: 619px;
+	position: relative;
+	cursor: pointer;
+}
+.nextBTN:hover{
+	background-image: url(../img/menu/nextBTN/nextBTNh.png);
+}
 /*============ NOWA GRA =================*/
 #newGame{
 	width: 800px;
@@ -50,13 +62,21 @@ body{
 	background-image: url(../img/backgrounds/menunewGame.png);
 	display: none;
 	color: #fff;
-	
+	padding: 20px;
+}
+#playerCard{
+	width: 800px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url(../img/backgrounds/playerCard.jpg);
+	display: none;
+	color: #fff;
+	padding: 20px;
 }
 input[type=text]{
 	background-color: transparent;
 	border: 1px solid #fff;
 	color: #fff;
-}
-#newGame{
-	padding: 20px;
 }

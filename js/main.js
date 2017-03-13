@@ -13,7 +13,7 @@ function newGame(){
 	
 	
 }
-function SplayerCardS(){
+function playerCard(){
 	document.getElementById('newGame').style.display="none";
-	document.getElementById('newGame2').style.display="block";
+	document.getElementById('playerCard').style.display="block";
 }
