@@ -44,13 +44,40 @@ body{
 	background-image: url(../img/menu/nextBTN/nextBTN.png);
 	width: 150px;
 	height: 41px;
-	margin-top: 519px;
+	margin-top: 539px;
 	margin-left: 619px;
 	position: relative;
 	cursor: pointer;
 }
 .nextBTN:hover{
 	background-image: url(../img/menu/nextBTN/nextBTNh.png);
+}
+.arrowL{
+	width: 50px;
+	height: 30px;
+	background-image: url(../img/menu/arrow/arrowL.png);
+	position: absolute;
+	z-index: 1000;
+	top: 285px;
+	left: 25px;
+}
+.arrowL:hover{
+	background-image: url(../img/menu/arrow/arrowLh.png);
+	cursor: pointer;
+}
+.arrowR{
+	width: 50px;
+	height: 30px;
+	background-image: url(../img/menu/arrow/arrowR.png);
+	position: absolute;
+	z-index: 1000;
+	margin-top: 285px;
+	right: 25px;
+	margin-left: 619px;
+}
+.arrowR:hover{
+	background-image: url(../img/menu/arrow/arrowRh.png);
+	cursor: pointer;
 }
 /*============ NOWA GRA =================*/
 #newGame{
@@ -62,7 +89,6 @@ body{
 	background-image: url(../img/backgrounds/menunewGame.png);
 	display: none;
 	color: #fff;
-	padding: 20px;
 }
 #playerCard{
 	width: 800px;
