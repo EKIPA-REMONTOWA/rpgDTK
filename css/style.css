@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lobster Two', cursive;
+}
+*{
+	box-sizing: border-box;
+}
+/*=========   CONTROLLS MENU  ==============*/
+#myCanvas{
+	position: relative;
+}
+#controlls{
+	width: 800px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url(../img/backgrounds/menuBackground.png);
+}
+.defaultButton{
+	background-image: url(../img/menu/defaultButton/btn1.png);
+	width: 300px;
+	height: 82px;
+	margin-left: 250px;
+	margin-top: 50px;
+	position: relative;
+}
+.defaultButton:hover{
+	background-image: url(../img/menu/defaultButton/btn1h.png);
+	cursor: pointer;
+}
+.buttonText{
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: inherit;
+	height: inherit;
+	text-align: center;
+	font-size: 34px;
+}
+/*============ NOWA GRA =================*/
+#newGame{
+	width: 800px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url(../img/backgrounds/menunewGame.png);
+	display: none;
+	color: #fff;
+	
+}
+input[type=text]{
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+#newGame{
+	padding: 20px;
+}

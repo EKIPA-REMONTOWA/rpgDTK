@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+    	<title>Gra</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+	</head>
+	<body>
+		 <canvas id="myCanvas" width="800" height="600" style="border:1px solid #000000;"></canvas>
+		<div id="controlls">
+			<div onmousedown="newGame()" class="defaultButton">
+				<div class="buttonText">
+					<span style="margin-top: 18px; display: block;">Nowa gra</span>
+				</div>
+			</div>
+			<div class="defaultButton">
+				<div class="buttonText">
+					<span style="margin-top: 18px; display: block;">Wczytaj grę</span>
+				</div>
+			</div>
+			<div class="defaultButton">
+				<div class="buttonText">
+					<span style="margin-top: 18px; display: block;">Opcje</span>
+				</div>
+			</div>
+			<div class="defaultButton">
+				<div class="buttonText">
+					<span style="margin-top: 18px; display: block;">Wyjście</span>
+				</div>
+			</div>
+		</div>
+		<div id="newGame">
+			<from name="playerCard" onsubmit="return playerCardS()">
+				<h1>Rasa</h1>
+					<input type="submit" value="Dalej"><br>
+			</from>
+		</div>
+	</body>
+	<script src="js/main.js"></script>
+</html>
